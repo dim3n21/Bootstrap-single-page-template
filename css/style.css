@@ -14,12 +14,14 @@ body {
 }
 
 .btn-hover-main {
+
+    background-color: var(--color-primary);
     color: #fff;
     opacity: 0.8;
 }
 
 .btn-hover-main:hover {
-    background-color: var(--color-primary) !important;
+    background-color: var(--color-primary-light) !important;
 }
 
 .navbar {
@@ -62,6 +64,13 @@ body {
 #explore-section .fas, #share-section .fas {
     background: #333;
     color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#create-section .fas {
+    color: var(--color-primary-dark);
+    background: #fff;
     padding: 5px;
     border-radius: 5px;
 }
