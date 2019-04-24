@@ -13,6 +13,15 @@ body {
     background-color: var(--color-primary);
 }
 
+.btn-hover-main {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn-hover-main:hover {
+    background-color: var(--color-primary) !important;
+}
+
 .navbar {
     border-bottom: var(--color-primary) 3px solid;
     opacity: 0.8;
@@ -46,6 +55,13 @@ body {
 #home-section .fas {
     color: var(--color-primary-dark);
     background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#explore-section .fas, #share-section .fas {
+    background: #333;
+    color: #fff;
     padding: 5px;
     border-radius: 5px;
 }
