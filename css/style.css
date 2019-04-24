@@ -1,5 +1,7 @@
 :root {
     --color-primary: #55c57a;
+    --color-primary-light: #7ed56f;
+    --color-primary-dark: #28b485;
 }
 
 body {
@@ -7,11 +9,43 @@ body {
     color: #fff;
 }
 
-.main-color {
+.bg-main-color {
     background-color: var(--color-primary);
 }
 
 .navbar {
     border-bottom: var(--color-primary) 3px solid;
     opacity: 0.8;
+}
+
+#home-section {
+    background: url(../img/home.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0,0,0,0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+#home-section .card-form {
+    opacity: 0.8;
+}
+
+#home-section .fas {
+    color: var(--color-primary-dark);
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
 }
