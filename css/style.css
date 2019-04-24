@@ -11,12 +11,13 @@ body {
 
 .bg-main-color {
     background-color: var(--color-primary);
+    color: #fff;
 }
 
 .btn-hover-main {
 
     background-color: var(--color-primary);
-    color: #fff;
+    color: #fff !important;
     opacity: 0.8;
 }
 
