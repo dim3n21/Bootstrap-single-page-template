@@ -1,0 +1,17 @@
+:root {
+    --color-primary: #55c57a;
+}
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.main-color {
+    background-color: var(--color-primary);
+}
+
+.navbar {
+    border-bottom: var(--color-primary) 3px solid;
+    opacity: 0.8;
+}
